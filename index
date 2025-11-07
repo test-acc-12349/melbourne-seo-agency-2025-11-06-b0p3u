@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Melbourne SEO Masters - Get ranked on Google fast with proven results from our expert team.">
+    <meta name="keywords" content="SEO, Melbourne, Google Rankings, Digital Marketing">
+    <meta name="author" content="Melbourne SEO Masters">
+    <title>Melbourne SEO Masters | Get Ranked on Google Fast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-rocket text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-gray-900">Melbourne SEO Masters</span>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Features</a>
+                <a href="#benefits" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Benefits</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">About</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimonials</a>
+                <a href="#faq" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">FAQ</a>
+                <a href="https://test.com" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300">Get Started</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-gray-700 hover:text-blue-600 transition-colors duration-300">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-white border-t border-gray-200 md:hidden">
+                <div class="flex flex-col space-y-4 px-4 sm:px-6 py-6">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Benefits</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">About</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">FAQ</a>
+                    <a href="https://test.com" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300 text-center">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 py-24 md:py-32 lg:py-40 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+            <div class="absolute top-40 right-10 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight md:leading-tight lg:leading-tight tracking-tight mb-6">
+                    Melbourne <span class="gradient-text">SEO Masters</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed font-light">
+                    We get you ranked on Google Fast
+                </p>
+                <p class="text-lg text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                    Dominate search results, drive qualified traffic to your website, and accelerate your business growth with our proven SEO strategies and expert team.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://test.com" class="btn-primary bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 shadow-lg hover:shadow-xl transition-all duration-300">
+                        Start Your Free Audit
+                    </a>
+                    <a href="#features" class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-all duration-300">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Why Choose Our SEO Services?
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    We combine cutting-edge technology with proven strategies to deliver exceptional results for your business.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: Fast Google Rankings -->
+                <div class="feature-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl border border-blue-200 hover:shadow-xl">
+                    <div class="w-14 h-14 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-bolt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Fast Google Rankings</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Our proven methodology accelerates your website's climb through Google's search rankings. We focus on high-impact strategies that deliver measurable results in weeks, not months.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Rapid indexing optimization</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Priority keyword targeting</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Aggressive backlink strategy</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Proven Results -->
+                <div class="feature-card bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl border border-purple-200 hover:shadow-xl">
+                    <div class="w-14 h-14 bg-purple-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Proven Results</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Our track record speaks for itself. We've helped hundreds of Melbourne businesses achieve first-page rankings and significantly increase their organic traffic and revenue.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>300%+ average traffic increase</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>95% client retention rate</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Transparent reporting</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Expert Team -->
+                <div class="feature-card bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-xl border border-green-200 hover:shadow-xl">
+                    <div class="w-14 h-14 bg-green-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Expert Team</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Our team consists of certified SEO specialists with years of experience in the digital marketing industry. We stay ahead of algorithm changes and industry trends.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Google-certified specialists</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Continuous training & updates</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Dedicated account management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 md:py-32 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Transform Your Online Presence
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Experience the tangible benefits of professional SEO optimization for your business.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1: Dominate Search Results -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200">
+                    <div class="flex items-start space-x-4 mb-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-600">
+                                <i class="fas fa-crown text-white text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Dominate Search Results</h3>
+                            <p class="text-gray-700 leading-relaxed">
+                                Secure top positions on Google for your target keywords and establish your business as the authority in your industry. Our strategies ensure your competitors stay behind.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2: Drive Traffic -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200">
+                    <div class="flex items-start space-x-4 mb-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-600">
+                                <i class="fas fa-arrow-up text-white text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Drive Qualified Traffic</h3>
+                            <p class="text-gray-700 leading-relaxed">
+                                Attract highly qualified visitors actively searching for your products or services. Our targeted approach ensures every visitor has genuine purchase intent and conversion potential.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 3: Boost Revenue -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200">
+                    <div class="flex items-start space-x-4 mb-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-600">
+                                <i class="fas fa-dollar-sign text-white text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Boost Revenue</h3>
+                            <p class="text-gray-700 leading-relaxed">
+                                Increase your bottom line with more customers and higher conversion rates. SEO delivers long-term, sustainable growth that compounds over time and maximizes ROI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Benefits Grid -->
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <i class="fas fa-check-circle text-green-600 text-3xl mt-1"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-900 mb-2">Cost-Effective Marketing</h4>
+                        <p class="text-gray-700">
+                            Unlike paid advertising, SEO provides sustainable, long-term results without ongoing per-click costs. Your investment continues paying dividends month after month.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <i class="fas fa-check-circle text-green-600 text-3xl mt-1"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-900 mb-2">Build Brand Credibility</h4>
+                        <p class="text-gray-700">
+                            Ranking high on Google establishes trust and authority with potential customers. First-page visibility positions your brand as a leader in your industry.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <i class="fas fa-check-circle text-green-600 text-3xl mt-1"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-900 mb-2">Competitive Advantage</h4>
+                        <p class="text-gray-700">
+                            Outrank your competitors and capture market share. Our strategies identify opportunities your competitors are missing and capitalize on them.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <i class="fas fa-check-circle text-green-600 text-3xl mt-1"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-900 mb-2">Local Market Dominance</h4>
+                        <p class="text-gray-700">
+                            Dominate local search results in Melbourne and surrounding areas. We specialize in local SEO to ensure your business gets found by customers in your target geographic area.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 tracking-tight">
+                        About Melbourne SEO Masters
+                    </h2>
+                    <div class="space-y-6 text-lg text-gray-700 leading-relaxed">
+                        <p>
+                            Founded in 2015, Melbourne SEO Masters emerged from a simple vision: to help local businesses unlock their full potential through strategic search engine optimization. What started as a small team of passionate digital marketers has evolved into one of Melbourne's most trusted SEO agencies, serving hundreds of clients across diverse industries including retail, professional services, e-commerce, and hospitality. Our founder, a former Google employee, brought insider knowledge of search algorithms and best practices that became the foundation of our methodology. Over the past decade, we've refined our approach through continuous learning, rigorous testing, and adaptation to Google's evolving algorithm changes.
+                        </p>
+                        <p>
+                            Our mission is simple yet powerful: to deliver exceptional SEO results that drive tangible business growth for our clients. We believe in transparency, accountability, and long-term partnerships built on trust and proven results. Our core values—excellence, integrity, innovation, and client success—guide every decision we make and every strategy we implement. We're not just an SEO agency; we're your strategic partner committed to understanding your business goals, industry challenges, and competitive landscape. By combining data-driven insights with creative problem-solving, we develop customized SEO solutions that align with your unique business objectives and deliver measurable ROI that exceeds expectations.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=600&fit=crop" alt="Melbourne SEO Masters Team" class="rounded-xl shadow-xl w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent rounded-xl"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 md:py-32 bg-gradient-to-br from-blue-50 to-purple-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    What Our Clients Say
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Real results from real businesses across Melbourne and beyond.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "Melbourne SEO Masters transformed our online presence completely. Within three months, we went from page 3 to page 1 for our primary keywords. Our organic traffic increased by 280%, and we've seen a direct impact on our sales. Their team is professional, responsive, and truly understands our business goals. Highly recommended!"
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Sarah Mitchell</p>
+                            <p class="text-sm text-gray-600">Owner, Mitchell & Co. Legal Services</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "We were skeptical about SEO initially, but Melbourne SEO Masters proved its value immediately. Their detailed audit identified critical issues we didn't even know existed. After implementing their recommendations, our website now ranks for 47 high-value keywords we're targeting. The ROI has been phenomenal."
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">James Chen</p>
+                            <p class="text-sm text-gray-600">Director, Chen & Associates Accounting</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "Outstanding service and exceptional results. The team at Melbourne SEO Masters goes above and beyond to understand our industry and competitive landscape. They've helped us establish ourselves as a market leader in our niche. Our leads have increased by over 150%, and the quality of those leads is remarkable. Five stars!"
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Emma Richardson</p>
+                            <p class="text-sm text-gray-600">Marketing Manager, Richardson Digital Solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "Working with Melbourne SEO Masters has been a game-changer for our e-commerce business. They implemented a comprehensive SEO strategy that improved our site speed, fixed technical issues, and optimized our product pages. Our conversion rate has improved by 89%, and our average order value has increased significantly. They're true professionals."
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">David Thompson</p>
+                            <p class="text-sm text-gray-600">CEO, Thompson's Home & Garden E-Store</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-24 md:py-32 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop');">
+        <div class="absolute inset-0 bg-blue-600/75"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
+                Ready to Dominate Google?
+            </h2>
+            <p class="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Join hundreds of successful Melbourne businesses that have transformed their online presence and grown their revenue through our proven SEO strategies.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://test.com" class="btn-primary bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 shadow-lg hover:shadow-xl transition-all duration-300">
+                    Get Your Free SEO Audit Today
+                </a>
+                <a href="mailto:admin@test.com" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 md:py-32 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Everything you need to know about our SEO services and how we can help your business.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-6 text-left font-bold text-lg text-gray-900 hover:bg-gray-100 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span>How long does it take to see results from SEO?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-200">
+                        <p>
+                            SEO is a long-term strategy, but you can start seeing results within 3-6 months of implementing a comprehensive strategy. Most of our clients report significant improvements in rankings and organic traffic within the first quarter. However, the timeline depends on factors like your industry competitiveness, current website state, and the keywords you're targeting. We focus on sustainable, long-term growth rather than quick fixes that don't last. Our detailed reporting shows progress month-over-month, so you can track improvements in rankings, traffic, and leads.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-6 text-left font-bold text-lg text-gray-900 hover:bg-gray-100 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span>What makes your SEO approach different from other agencies?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-200">
+                        <p>
+                            Our founder's background as a former Google employee gives us insider knowledge of how search algorithms work. We combine this with years of practical experience and continuous testing to develop strategies that actually work. We don't use black-hat tactics or make unrealistic promises. Instead, we focus on white-hat, ethical SEO that builds sustainable results. Every strategy is customized to your specific business, industry, and goals. We also provide transparent reporting and maintain regular communication so you always know what we're doing and why. Our 95% client retention rate speaks to the quality of our work and our commitment to client success.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-6 text-left font-bold text-lg text-gray-900 hover:bg-gray-100 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span>Do you guarantee first-page rankings?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-200">
+                        <p>
+                            No legitimate SEO agency can guarantee specific rankings because Google's algorithm is complex and constantly evolving. Anyone promising guaranteed rankings is being dishonest. What we do guarantee is that we'll implement best practices, stay updated on algorithm changes, and work tirelessly to improve your rankings and organic traffic. Our track record shows that our strategies consistently deliver first-page results for our clients' target keywords. We focus on what we can control: technical optimization, quality content, strategic link building, and user experience improvements. These factors significantly influence rankings and have delivered exceptional results for hundreds of Melbourne businesses.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-6 text-left font-bold text-lg text-gray-900 hover:bg-gray-100 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span>What's included in your SEO services?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-200">
+                        <p>
+                            Our comprehensive SEO services include: technical SEO audit and optimization, keyword research and strategy, on-page optimization, content creation and optimization, link building and outreach, local SEO optimization, monthly reporting and analytics, and ongoing strategy adjustments. We also provide competitor analysis, user experience improvements, and conversion rate optimization recommendations. Every package is customized based on your specific needs and goals. During your free initial audit, we'll identify opportunities specific to your business and recommend the services that will deliver the best ROI for your situation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-6 text-left font-bold text-lg text-gray-900 hover:bg-gray-100 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span>How do you measure SEO success and ROI?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-gray-700 leading-relaxed border-t border-gray-200">
+                        <p>
+                            We measure success through multiple metrics: keyword rankings, organic traffic volume, lead quality and quantity, conversion rates, and revenue generated from organic search. We provide detailed monthly reports showing progress on all these metrics and how they compare to previous months and your goals. We also track ROI by calculating the revenue generated from organic traffic against our service fees. Our analytics dashboard gives you real-time access to all key performance indicators. We focus on metrics that directly impact your bottom line, not vanity metrics. Our goal is to demonstrate clear, measurable business results that justify and exceed your investment in SEO.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-rocket text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">Melbourne SEO Masters</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Helping Melbourne businesses dominate Google search results and grow their revenue through proven SEO strategies.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test.com" class="text-gray-400 hover:text-white transition-colors duration-300">Free SEO Audit</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6">Get In Touch</h4>
+                    <div class="space-y-4">
+                        <p class="text-gray-400">
+                            <i class="fas fa-envelope mr-3 text-blue-600"></i>
+                            <a href="mailto:admin@test.com" class="hover:text-white transition-colors duration-300">admin@test.com</a>
+                        </p>
+                        <div class="flex space-x-4 pt-4">
+                            <a href="#" class="text-gray-400 hover:text-blue-600 transition-colors duration-300 text-lg">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-lg">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-pink-600 transition-colors duration-300 text-lg">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-700 transition-colors duration-300 text-lg">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                        &copy; 2025 Melbourne SEO Masters. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="privacy.html" class="text-gray-500 hover:text-gray-300 text-sm transition-colors duration-300">Privacy Policy</a>
+                        <a href="terms.html" class="text-gray-500 hover:text-gray-300 text-sm transition-colors duration-300">Terms of Service</a>
+                        <a href="blog.html" class="text-gray-500 hover:text-gray-300 text-sm transition-colors duration-300">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
